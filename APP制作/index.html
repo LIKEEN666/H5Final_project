@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" href="css/eaxm1.css">
+		<link rel="stylesheet" href="fonts/iconfont.css">
+		<!--App自定义的css-->
+		<!--<link rel="stylesheet" type="text/css" href="../css/app.css"/>-->
+	</head>
+
+	<body>
+		<header class="mui-bar mui-bar-nav">
+			<a class="mui-action-back mui-icon mui-icon-left-nav mui-pull-left"></a>
+			<h1 class="mui-title">中国瑰宝</h1>
+		</header>
+		<div class="mui-content">
+			<ul class="mui-table-view mui-table-view-chevron">
+				<li id="switch" class="mui-table-view-cell">
+					定时轮播
+					<div class="mui-switch">
+						<div class="mui-switch-handle"></div>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/3.jpg">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/1.jpg">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/2.jpg">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/3.jpg">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="images/3.jpg">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="images/2.jpg">
+					</a>
+				</div>
+			</div>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<nav class="mui-bar mui-bar-tab">
+		    <a class="mui-tab-item mui-active" href="index.html">
+		        <span class="mui-icon mui-icon-home"></span>
+		        <span class="mui-tab-label">首页</span>
+		    </a>
+		    <a class="mui-tab-item" href="#">
+		        <span class="mui-icon mui-icon-phone"></span>
+		        <span class="mui-tab-label">图闻</span>
+		    </a>
+		    <a class="mui-tab-item" href="https://so.gushiwen.org/search.aspx?value=%E4%BA%BA%E7%89%A9%E5%BF%97">
+		        <span class="mui-icon mui-icon-email"></span>
+		        <span class="mui-tab-label">人物志</span>
+		    </a>
+		    <a class="mui-tab-item" href="login.html">
+		        <span class="mui-icon mui-icon-phone-filled"></span>
+		        <span class="mui-tab-label">登陆</span>
+		    </a>
+		</nav>
+		<div class="mui-content">
+		        <ul class="mui-table-view mui-grid-view mui-grid-9">
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="imageviewer.html">
+		                   
+		                   	<svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-"></use>
+		            
+                               </svg>
+		                    <div class="mui-media-body">货币</div></a></li>
+		                  
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://baike.baidu.com/item/%E9%9D%92%E9%93%9C/33219?fr=aladdin">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-1"></use>
+                                </svg>
+		                    <div class="mui-media-body">青铜</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://baike.baidu.com/item/%E8%8C%B6/6227?fr=aladdin">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-2"></use>
+                                </svg>
+		                    <div class="mui-media-body">茶</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://baike.baidu.com/item/%E5%95%86%E5%90%8E%E6%AF%8D%E6%88%8A%E9%BC%8E/22922991?fromtitle=%E5%8F%B8%E6%AF%8D%E6%88%8A%E9%BC%8E&fromid=938337&fr=aladdin">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-3"></use>
+                                </svg>
+		                    <div class="mui-media-body">司母戊鼎</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://baijiahao.baidu.com/s?id=1602969807652085954&wfr=spider&for=pc">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-4"></use>
+                                </svg>
+		                    <div class="mui-media-body">乐器</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://baike.baidu.com/item/%E7%81%AF%E7%AC%BC/83133?fr=aladdin">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-5"></use>
+                                </svg>
+		                    <div class="mui-media-body">灯笼</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://baijiahao.baidu.com/s?id=1605665368707709418&wfr=spider&for=pc">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-6"></use>
+                                </svg>
+		                    <div class="mui-media-body">扇子</div></a></li>
+		            <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="http://www.shicimingju.com/">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-7"></use>
+                                </svg>
+		                    <div class="mui-media-body">诗词</div></a></li>
+		           <li class="mui-table-view-cell mui-media mui-col-xs-4 mui-col-sm-3"><a href="https://baijiahao.baidu.com/s?id=1626316692823477905&wfr=spider&for=pc">
+		                    <svg class="icon" aria-hidden="true">
+		                    	<use xlink:href="#icon-weibiaoti-8"></use>
+                                </svg>
+		                    <div class="mui-media-body">文房四宝</div></a></li>
+		        </ul> 
+		</div>
+		
+<style>
+.icon {
+  width: 5em;
+  height: 3.7em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+  
+}
+
+
+</style>
+
+		<script src="fonts/iconfont.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000
+					});
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+			});
+		</script>
+		<script >
+        	mui.init();   	mui('body').on('tap','a',function(){document.location.href=this.href;});
+	   </script>
+	</body>
+
+</html>

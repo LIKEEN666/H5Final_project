@@ -1,0 +1,71 @@
+@charset "utf-8";
+.box {
+	height: 1200px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .nav {
+	height: 155px;
+	width: 1003px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .banner {
+	background-image: url(../images/bannerInner.jpg);
+	height: 183px;
+	width: 1003px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .dbody {
+	height: 750px;
+	width: 1003px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .dbody .top {
+	background-image: url(../images/filletTop.jpg);
+	height: 34px;
+	width: 803px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.box .dbody .middle {
+	background-image: url(../images/contentBg.jpg);
+	height: auto;
+	width: 803px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -12px;
+}
+.box .dbody .middle .bottom {
+	background-image: url(../images/filletBott.jpg);
+	height: 40px;
+	width: 803px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: -12px;
+}
+.box .dbody .middle .right {
+	float: left;
+	height: 400px;
+	width: 220px;
+	margin-top: 100px;
+}
+
+.box .dbody .middle .left {
+	background-image: url(../images/channel01.jpg);
+	height: 117px;
+	width: 41px;
+	margin-left: 25px;
+	float: left;
+}
+.box .dbody .middle .center {
+	float: left;
+	height: 500px;
+	width: 500px;
+}
+.box .dbody .middle .center div table tr td p strong {
+	color: #C8794E;
+}

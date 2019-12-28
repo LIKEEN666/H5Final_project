@@ -1,0 +1,51 @@
+.mui-bar-nav{
+	background-color: #8F8F8F;
+}
+.mui-bar-nav .mui-title,.mui-bar-nav a{
+	color: #FFFFFF;
+	font-weight: 600;
+}
+.mui-grid-view.mui-grid-9{background: #FFFFFF;}
+.mui-table-view.mui-grid-view .mui-table-view-cell span{
+	font-size: 2em;
+	padding: 0.8rem;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 1rem;
+	background-image: none;
+}
+.mui-icon.iconfont.icon-weibiaoti-{
+	background-color: blue;
+}
+
+.mui-icon.iconfont.icon-weibiaoti-1{
+	background-color: orangered;
+}
+
+.mui-icon.mui-icon-chatbubble{
+	background-color: yellow;
+}
+
+.mui-icon.mui-icon-location{
+	background-color: #2AC845;
+}
+
+.mui-icon.mui-icon-search{
+	background-color: greenyellow;
+}
+
+.mui-icon.mui-icon-phone{
+	background-color: deepskyblue;
+}
+
+.mui-icon.mui-icon-gear{
+	background-color: purple;
+}
+
+.mui-icon.mui-icon-info{
+	background-color: cornflowerblue;
+}
+
+.mui-icon.mui-icon-more{
+	background-color: grey;
+}
